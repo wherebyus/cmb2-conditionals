@@ -111,6 +111,14 @@ if ( ! class_exists( 'CMB2_Conditionals' ) ) {
 				self::VERSION,
 				true
 			);
+
+			wp_enqueue_script(
+				'cmb2-group-conditionals',
+				plugins_url( '/cmb2-group-conditionals.js', __FILE__ ),
+				array( 'jquery', 'cmb2-scripts', 'cmb2-conditionals' ),
+				self::VERSION,
+				true
+			);
 		}
 
 

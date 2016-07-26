@@ -5,9 +5,9 @@ jQuery( document ).ready(function($) {
             document.getElementById('list_group_repeat').style.display = 'block';
             document.querySelector('.cmb-repeat-group-wrap').style.display = 'block';
         }
-        else {
-			document.getElementById('list_group_repeat').style.display = 'none';
-    		document.querySelector('.cmb-repeat-group-wrap').style.display = 'none';			
+    else {
+		document.getElementById('list_group_repeat').style.display = 'none';
+    	document.querySelector('.cmb-repeat-group-wrap').style.display = 'none';			
 	};
  
 
